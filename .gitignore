@@ -1,0 +1,38 @@
+# Git ignore for Mini Project Management System
+
+# Local MySQL data
+local_db/
+*.log
+
+# Maven & Java
+**/target/
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+**/.idea/
+**/*.iml
+**/*.class
+
+# Node & Frontend
+**/node_modules/
+**/dist/
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+# Environment variables and secrets
+.env.*
+!.env.example
+
+# Build outputs and local configuration
+coverage/
+.vscode/
